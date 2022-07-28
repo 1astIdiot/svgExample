@@ -1292,9 +1292,11 @@ export const RussiaMap = (props) => (
                 </a>
             </g>
 
-
             <a href="#SVGPIN" data-color="#606060" data-id="MOW">
-                <Pin x={135} y={153} width={200} height={400} data={props.data} dataId="MOW" />
+                <Pin x={130} y={153} width={200} height={400} data={props.data} dataId="MOW" />
+            </a>
+            <a href="#SVGPIN" data-color="#606060" data-id="Southern">
+                <Pin x={140} y={153} width={200} height={400} data={props.data} dataId="Southern" />
             </a>
             <a href="#SVGPIN" data-color="#606060" data-id="SEV">
                 <Pin x={-7} y={242} width={200} height={400} data={props.data} dataId="SEV" />

@@ -230,6 +230,10 @@ function App() {
                 if (currentPath) currentPath.forEach(elem => elem.style.cssText = `fill: ${color}; stroke-width: 2px`);
                 item.classList.add('active');
 
+                const svgContainer = document.getElementById('svg2');
+                svgContainer.removeChild(item);
+                svgContainer.appendChild(item);
+
                 event.preventDefault();
                 event.stopPropagation();
             })

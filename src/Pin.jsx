@@ -6,10 +6,6 @@ function Pin(props) {
     useEffect(() => {
         if (props.data.length > 0 && props.dataId !== '') {
             setCurrentElem(props.data.find(item => {
-                console.log('item: ', item);
-                console.log('props.dataId: ', props.dataId);
-                console.log('item.id === props.dataId: ', item.id === props.dataId);
-                console.log('');
                 return item.id === props.dataId;
             }));
         }
