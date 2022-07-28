@@ -11,7 +11,7 @@ export const RussiaMap = (props) => (
             width="2000"
             height="630.119"
             version="1"
-            viewBox="-1000 -250 2500 2500"
+            viewBox="-250 -120 1200 1200"
         >
 
             <style id="style3390" type="text/css"/>
